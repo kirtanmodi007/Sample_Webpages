@@ -1,0 +1,17 @@
+
+@media only screen and (min-width:1000px)
+{
+	.position
+{
+	margin-left:34%;
+	/*margin-left:25%;*/
+	width:auto;
+	/*width:1000px;*/
+}	
+
+.radio-inline
+{
+	padding-top:28px;
+	padding-left:40px;
+}
+}

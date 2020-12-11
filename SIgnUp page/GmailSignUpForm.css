@@ -1,0 +1,236 @@
+
+body
+{
+	background-image: url('background.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	opacity:0.9;	
+}
+
+/*.navbar-right
+{
+	margin-top:15px;
+	margin-right:10px;
+}*/
+
+.glyphicon glyphicon-user
+{
+	border:1px dotted black;
+}
+
+.GoogleTitle
+{
+	text-align:center;
+	font-family: 'Open Sans', arial;
+    color: #555;
+    font-size: 38px;
+    font-weight: 300;
+    margin-top: auto;
+    margin-bottom: auto;
+    /*margin-top: 27px;
+    margin-bottom: 50px;*/
+    /*background-color:lightskyblue;*/
+}
+
+#MainForm
+{
+	margin-right:auto;
+	margin-left:auto;
+	/*margin-right:300px;*/
+
+}
+
+.mywidth
+{
+	width:300px;
+	height:30px;
+}
+
+/*.mywidth1
+{
+	width:100px;
+	height:20px;
+}*/
+
+.legend
+{
+	text-align:center;
+}
+
+/*.fieldset1
+{
+	border:2px solid red;
+}*/
+
+#SmallInput
+{
+	width: 50px; 
+}
+
+#SmallInput1
+{
+	width: 50px; 
+}
+
+.StyleSelect
+{
+	color:black;
+	width:auto;
+	height:auto;
+	/*width:300px;*/
+	/*height:40px;*/
+	font-size:20px;
+	text-align:center;
+}
+
+select
+{
+	text-align:center;
+}
+
+#blabla
+{
+	color:red;
+}
+
+.formstyle
+{
+
+	background-color:white;
+	/*width:500px;*/
+	width:auto;
+	position:static;
+	left:auto;
+	/*left:500px;*/
+	border:2px solid black;
+	border-radius:5px;
+	padding:20px;
+}
+
+.alignment
+{
+	position:relative;
+	left:150px;
+}
+
+/*.container
+{
+	margin:100px;
+	margin-left:600px;
+}*/
+
+/*.error
+{
+	color:red;
+	font-size:22px;
+}*/
+
+/*.tabStyle
+{
+	color:pink;
+	display:block;
+}*/
+
+ul.tab
+{
+	list-style-type: none;
+    margin-left:100px;
+    margin-top:20px;
+    padding: 0px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color:green;
+    font-size: 30px;
+    width:160.8px;
+}
+
+ul.tab li
+{
+	float:left;
+}
+
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+.position
+{
+	margin-left:auto;
+	/*margin-left:25%;*/
+	width:auto;
+	/*width:1000px;*/
+}
+
+/*input:invalid,select:invalid
+{
+	border-color:red;
+}*/
+
+.error 
+{
+   border:2px solid red;
+   color:red;
+}
+
+	
+
+.valid 
+{
+   border:2px solid lightgreen;
+}
+
+/*input[type=radio]
+{
+	border: 0px;
+     height: 2em;
+}*/
+
+
+
+/*.tab-group 
+{
+  list-style:none;
+  padding:0;
+  margin:0 0 40px 0;
+}
+
+  li a 
+  {
+    display:block;
+    text-decoration:none;
+    padding:15px;
+    background:yellow;
+    color:gray;
+    font-size:20px;
+    float:left;
+    width:50%;
+    text-align:center;
+    cursor:pointer;
+    transition:.5s ease;
+}
+    li a:hover 
+    {
+      background:red;
+      color:white;
+    }
+  .active a 
+  {
+    background:red;
+    color:white;
+  }*/
+  

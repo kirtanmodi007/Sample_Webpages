@@ -1,0 +1,42 @@
+table
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+}
+
+th,td
+{
+	border:1px solid black;	
+	padding: 20px;
+}
+
+th
+{
+	background-color:lightgreen;
+	color:white;
+}
+tr
+{
+	color:darkorchid;
+	padding: 10px;
+}
+
+tr:nth-child(even)
+{
+    background-color:lightcoral;
+}
+
+tr:nth-child(odd)
+{
+    background-color:lightblue;
+}
+
+tr:hover 
+{
+    background-color:lightgreen;
+}
+
+p
+{
+	text-decoration:none;
+}

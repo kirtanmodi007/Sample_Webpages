@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  .container
+  {
+  	margin-top:150px ;
+
+  	
+
+  }
+ fieldset
+ {
+ 	border:2px solid black;
+ 	padding:100px;
+ 	background-color:white;
+
+
+ }
+ h1
+ {
+ 	text-align:center;
+ 	font-size:40px;
+ }
+ .abc
+ {
+ 	width:500px;
+ 	
+
+ }
+ body
+ {
+ 	background-image:url("LogInFormBackGroundImage.jpg");
+ 	opacity:0.8;
+ }
+ 
+  
+  </style>
+</head>
+<body>
+
+<?php
+echo This is php
+ ?>
+
+<div class="container abc">
+<fieldset>
+<h1>form</h1>
+<form role="form">
+<!--label>username</label-->
+<div class="form-group">
+<input type="email" class="form-control" name="username" placeholder="username">
+</div>
+<div class="form-group">
+<input type="password" class="form-control" name="password" placeholder="password" >
+</div>
+<div class="form-group">
+<button type="button" class="btn btn-info form-control" name="login" >login</button>
+</div>
+</fieldset>
+</form>
+
+</div>
+</body>
+</html>
