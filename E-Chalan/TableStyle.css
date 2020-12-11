@@ -1,0 +1,85 @@
+/*This is the style table css for list items*/
+
+h1
+{
+    text-align:center;
+    font-family:Arial;
+    color:red;
+    font-size:50px;
+}
+
+table 
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th 
+{
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/*tr
+{
+    background-color:lightblue;
+}*/
+
+tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd)
+{
+    background-color:lightblue;
+}
+
+
+tr:hover 
+{
+    background-color: #ddd;
+}
+
+
+/*tr:hover:nth-child(even)
+{
+    background-color: #f0f0f0;
+}
+
+tr:hover:nth-child(odd)
+{
+    background-color: #020202;
+}*/
+
+
+th 
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: blue;
+    color: white;
+}
+
+input[type=submit]
+{
+    background-color:red;
+    padding:20px;
+    margin:20px;
+    float:right;
+    color:white;
+}
+
+a
+{
+    text-decoration:none;
+    color:darkorange;
+
+}
+
+a:hover
+{
+     color:blue;    
+}
